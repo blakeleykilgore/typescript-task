@@ -9,3 +9,9 @@ function checkPalindrome(textInput: string) {
 };
 
 const inputString = 'Hannah';
+
+if (checkPalindrome(inputString)) {
+  document.body.innerHTML = `The string "${inputString}" is a palindrome`;
+} else {
+  document.body.innerHTML = `The string "${inputString}" is not a palindrome`;
+}
